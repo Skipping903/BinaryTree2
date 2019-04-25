@@ -1,10 +1,12 @@
 package com.example.csc300binarytree;
 
-public class BinaryTree2
+import java.io.Serializable;
+
+public class BinaryTree2 implements Serializable
 {
-    private int payload;
-    private BinaryTree2 left;
-    private BinaryTree2 right;
+    public int payload;
+    public BinaryTree2 left;
+    public BinaryTree2 right;
 
     public BinaryTree2(int payload)
     {
